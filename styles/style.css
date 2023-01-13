@@ -1,5 +1,6 @@
 body{
   width: 100%;
+  background-color:#b9a7bf;;
 }
 header{
   width: 1340px;
@@ -8,11 +9,11 @@ left: 0px;
 top: 0px;
 margin-left: 12px;
 background: #562EFF;
+align-items: center;
+justify-content: center;
 }
 .idea{
 display: flex;
-
-
 }
 .logo{
   position: absolute;
@@ -30,7 +31,6 @@ top: 26px;
   top: 15px;
   font-weight: 500;
   font-size: 24px;
- 
 }
 .profile-btn-home{
   position: absolute;
@@ -68,4 +68,42 @@ width: 51px;
 height: 51px;
 left: 1100px;
 top: 28px;
+}
+
+/* main section styles */
+.container{
+  position: absolute;
+  width: 870px;
+height: 679px;
+left: 285px;
+top: 130px;
+background: #FFFFFF;
+border-radius: 5px;
+}
+.section-title{
+width: 125px;
+height: 36px;
+padding:33px 0 5px 33px ;
+color: #562EFF;
+}
+.players{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0px 0 30px 40px;
+}
+.player{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.player img{
+  width: 56px;
+height: 56px;
+left: 315px;
+top: 239px;
+}
+hr{
+  width: 807px;
+border: 1px solid rgba(53, 52, 52, 0.482);
 }
